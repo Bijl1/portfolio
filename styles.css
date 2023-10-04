@@ -3,10 +3,21 @@
 }
 
 header {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+    background: url('https://contentstatic.techgig.com/thumb/msid-81571178,width-460,resizemode-4/How-to-become-a-full-stack-developer-in-2021.jpg') center/cover no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
     text-align: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#techJob img{
+    width: 100%;
+    height: auto;
 }
