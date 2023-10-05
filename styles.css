@@ -15,9 +15,45 @@ header {
 
 h1 {
     font-size: 3em;
+    letter-spacing: 0.15em;
 }
 
 #techJob img{
     width: 100%;
     height: auto;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 25px;
+    font-size:3rex;
+    font:bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content:flex-end;
+    font-size: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #ff5733; 
+}
+
+#about {
+  -webkit-initial-letter: 3;
+  initial-letter: 3;
 }
