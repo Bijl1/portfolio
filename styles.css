@@ -60,11 +60,15 @@ nav a:hover {
     color: #ff5733; 
 }
 
-.about {
+.second {
     padding: 15px;
     color: white;
     width: auto;
     background: rgba(0,0,0,0.8);
+}
+
+.second :hover {
+    color: #ff5733; 
 }
 
 .skills {
@@ -83,7 +87,6 @@ footer a {
 }
 
 footer a:hover {
-    text-decoration: underline;
     color: #ff5733; 
 }
 
