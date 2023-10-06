@@ -4,7 +4,7 @@
 
 header {
     background: url('https://contentstatic.techgig.com/thumb/msid-81571178,width-460,resizemode-4/How-to-become-a-full-stack-developer-in-2021.jpg') center/cover no-repeat;
-    height: 50vh;
+    height: 45vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,9 +18,8 @@ h1 {
     letter-spacing: 0.15em;
 }
 
-#techJob img{
-    width: 100%;
-    height: auto;
+h2 {
+    color: white;
 }
 
 nav {
@@ -46,34 +45,32 @@ nav a {
     text-decoration: none;
     color: white;
     transition: color 0.3s ease;
-    padding: 10px;
+    padding: 5px;
 }
 
 nav a:hover {
     color: #ff5733; 
 }
 
-/* Example CSS for About Me section */
 .about {
     padding: 15px;
     background-color: #f0f0f0;
 }
 
-/* Example CSS for Skills section */
 .skills {
     margin-top: 20px;
+    color: white;
 }
 
-/* Example CSS for Projects section */
 .projects {
     margin-top: 20px;
 }
 
 .project {
     margin-bottom: 20px;
+    color: white;
 }
 
-/* Example CSS for Footer section */
 footer {
     background-color: #333;
     color: #fff;
@@ -87,4 +84,8 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+body {
+    background-color: rgb(33, 6, 79);
 }
