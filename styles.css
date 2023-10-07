@@ -136,16 +136,16 @@ footer a:hover {
   .progress-width{
     padding:4px;
     border-radius:10px;
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    background-image: linear-gradient(120deg, #02C5DB 0%, #002159 100%);
   }
   .progress-width.html{
-    width:90%;
+    width:80%;
   }
   .progress-width.css{
     width:65%;
   }
   .progress-width.js{
-    width:30%;
+    width:50%;
   }
   
   .skills-container {
