@@ -76,11 +76,6 @@ header :hover {
 footer {
     padding: 15px;
     text-align: center;
-    margin-top: auto;
-    position: fixed;
-    bottom:0;
-    width: 100%;
-    height: auto;
 }
 
 footer a {
@@ -103,14 +98,64 @@ footer a:hover {
     border-radius: 5px;
     margin-top: 20px;
     position: absolute;
-    top: 63%;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.whitecontainer {
+    text-align: center;
+}
+
+.whitecontainerdown img {
+    transform: scaleX(-1) scaleY(-1);
+}
+
+.skills {
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    position: absolute;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
 }
 
 
-.whitecontainer {
-    text-align: center;
-}
 
+.skill-progress{
+    border:1px solid #0c0a0a;
+    padding:6px;
+    border-radius:10px;
+  }
+  .progress-width{
+    padding:4px;
+    border-radius:10px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  }
+  .progress-width.html{
+    width:90%;
+  }
+  .progress-width.css{
+    width:65%;
+  }
+  .progress-width.js{
+    width:30%;
+  }
+  
+  .skills-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+      grid-gap: 10px;
+  }
+  
+  
+  
+    
+    
+    
