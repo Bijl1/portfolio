@@ -1,21 +1,71 @@
-<!doctype html>
-      <html>
-        <head>
-          <meta charset="utf-8">
-          <title>Contact</title>
-          <link rel="stylesheet" href="/stylesheets/style.css" />
-        </head>
-        <body>
-          <h1>Contact page</h1>
-          <img src="/images/water-blue-ocean.jpg" />
-          <nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Jonathan Bijl Portfolio</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <meta name="description" content="Jonathan Bijl - Junior Web Developer Portfolio">
+  <meta name="keywords" content="web development, portfolio, junior web developer, software engineer">
+  <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Person",
+            "name": "Jonathan Bijl",
+            "jobTitle": "Junior Web Developer",
+            "url": "https://jonathanbijl.com",
+            "sameAs": [
+                "https://linkedin.com/in/jonathanbijl",
+                "https://github.com/Bijl1"
+            ]
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      (function ($) {
+        $.fn.writeText = function (content) {
+          var contentArray = content.split(""),
+            current = 0,
+            elem = this;
+          setInterval(function () {
+            if (current < contentArray.length) {
+              elem.text(elem.text() + contentArray[current++]);
+            }
+          }, 90);
+        };
+      })(jQuery);
+
+      $("#holder").writeText("<> FRONT-END + BACK-END DEVELOPER </>");
+    });
+  </script>
+
+
+</head>
+
+<body>
+   <header>
+        <img src="https://static.pexels.com/photos/5412/water-blue-ocean.jpg" alt="Tech Picture">
+        <nav>
             <ul>
                 <li><a href="/">HOME</a></li>
                 <li><a href="#blog">BLOG</a></li>
-                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="/skill">SKILL</a></li>
                 <li><a href="/contact">CONTACT</a></li>
             </ul>
         </nav>
-          
-        </body>
-      </html>
+        <h1>JONATHAN BIJL</h1>
+        <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+    </header>
+    
+
+        
+
+        <footer>
+            <a href="https://www.linkedin.com/in/jonathanbijl/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Bijl1" target="_blank"><i class="fab fa-github"></i></a>
+        </footer>
+</body>
+
+</html>

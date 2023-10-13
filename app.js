@@ -9,7 +9,8 @@ app.set("view engine", "hbs");
 
 app.get("/", (req, res, next) => res.render("index"));
 app.get("/contact", (req, res, next) => res.render("contact"));
-  
+app.get("/skill", (req, res, next) => res.render("skill"));
+
 
 
 
