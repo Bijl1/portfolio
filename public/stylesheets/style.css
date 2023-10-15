@@ -56,7 +56,7 @@ header :hover {
 
 #holder {
     position:absolute;
-    top: 70%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -87,6 +87,9 @@ header :hover {
 
 footer {
     padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     text-align: center;
 }
 
@@ -105,7 +108,7 @@ footer a:hover {
 .skills {
     max-width: 800px;
     margin: 0 auto;
-    padding-bottom: 40px;
+    padding-top: 40px;
     text-align: center;
 }
 
@@ -136,4 +139,31 @@ footer a:hover {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
       grid-gap: 10px;
-  }   
+  }
+
+
+  .resume {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.resume a i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.resume a:hover {
+    background-color: #ff5733;
+}
+
