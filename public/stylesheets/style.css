@@ -7,13 +7,18 @@ body, h1, h2, p, ul {
 
 body {
     position: relative;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
 }
 
 img {
     display: block;
-    width: 100%;
+    width: 30%;
     height: auto;
-    max-height: 400px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 150px;
+    right: 100px;
 }
 
 header {
@@ -41,35 +46,42 @@ nav a {
 }
 
 h1 {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
     font-size: 3em;
     letter-spacing: 0.15em;
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    left: 75px;
 }
 
-header :hover {
+header:hover h1 {
     color: #ff5733;
 }
 
 #holder {
-    position:absolute;
-    top: 65%;
-    left: 50%;
+    position: absolute;
+    top: 400px;
+    left: 30%;
     transform: translate(-50%, -50%);
     color: white;
 }
 
 #holder:hover {
-    color:#ff5733
+    color: #ff5733;
 }
 
 .about {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    position: fixed;
+    bottom: 150px;
+    width: 100%;
+
+    text-align: center;
+    
+    
 }
 
 .about h2 {
@@ -82,8 +94,9 @@ header :hover {
     color: #000000;
     line-height: 1.6;
     margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
 }
-
 
 footer {
     padding: 5px 0;
@@ -96,8 +109,8 @@ footer {
 footer a {
     color: black;
     text-decoration: none;
-    margin: 0 15px;
-    font-size: 200%;
+    margin: 0 10px;
+    font-size: 24px;
 }
 
 footer a:hover {
@@ -145,6 +158,9 @@ footer a:hover {
   .resume {
     text-align: center;
     margin-top: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 50px;
 }
 
 .resume a {
